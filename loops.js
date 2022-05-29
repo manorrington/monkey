@@ -33,6 +33,7 @@
 // console.log('AFTER THE LOOP!');
 
 // CODE PRACTICE
+/*
 for (let i = 0; i <= 20; i++) {console.log(`${i} x ${i} = ${i * i}`)}
 
 for (let i = 10; i > 0; i--) {console.log(i)}
@@ -100,3 +101,65 @@ for (let i = 0; i < gameBoard.length; i++) {
         totalScore += row[j];
     }
 }
+
+//difference between for and while loops
+for (let i = 0; i <= 5; i++) {console.log(i)};
+
+let j = 0;
+while (j <= 5) {
+   console.log(j);
+   j++;
+};
+
+
+//you usually run a while loops when the number of loops is unknown
+//while (some condition) {
+    //update or attempt to make that condition false
+//}
+const target = Math.floor(Math.random() * 10);
+let guess = Math.floor(Math.random() * 10);
+while (guess !== target){
+    console.log(guess);
+    guess = Math.floor(Math.random() * 10);
+}
+console.log(`Target: ${target} Guess: ${guess}`);
+
+//break keyword; stop looping at a specific point
+for(let i = 0; i <= 10; i++) {
+    console.log(i);
+    if (i === 5) {
+        break;
+    }
+};
+
+
+//for of
+let genre = ["rap", "r&b", "underground", "country"];
+for (let i = 0; i <= genre.length-1; i++) {console.log(genre[i])}
+
+//WAY EASIER METHOD LOL
+for (let subGenre of genre) {console.log(subGenre)}
+
+const words1 = ["mail", "milk", "bath", "black"];
+const words2 = ["box", "shake", "tub", "man"];
+
+for (let i = 0; i < words1.length; i++) {
+    console.log(words1[i], words2[i])
+};
+
+const movieReviews = {
+    arrival: 9.5,
+    onePieceRed: 9.5,
+    avatar: 9.5,
+    divergent: 9.5,
+};
+
+for (let movie of Object.keys(movieReviews)) {
+    console.log(movie, movieReviews[movie])
+}
+*/
+
+//for in loops through objects only
+
+
+
