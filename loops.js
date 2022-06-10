@@ -21,22 +21,22 @@
 // 	console.log('HELLO:', i);
 // }
 
-// // Printing first 20 perfect squares:
-// for (let num = 1; num <= 20; num++) {
-// 	console.log(`${num}x${num} = ${num * num}`);
-// }
-
 // // Counting DOWN from 200 by intervals of 25:
 // for (let i = 200; i >= 0; i -= 25) {
 // 	console.log(i);
 // }
 // console.log('AFTER THE LOOP!');
 
+
+
+
 // CODE PRACTICE
 /*
 for (let i = 0; i <= 20; i++) {console.log(`${i} x ${i} = ${i * i}`)}
 
 for (let i = 10; i > 0; i--) {console.log(i)}
+
+
 
 //looping through arrays
 let names = ["chris", "mona", "selena"];
@@ -50,6 +50,8 @@ let grades1 = [91, 76, 83, 65, 99, 81]
 for (let i = 0; i <= grades1.length-1; i++) {console.log(grades1[i])}
 //there's 6 items in the array. grades1.length is looking 6 but it's never going to find it, so when you console.log it, you'll the grades and undefined.
 // to prevent undefined, use -1 to make the array have 5 items instead of 6.
+
+
 
 //looping through an array/object
 const myStudents = [
@@ -66,9 +68,12 @@ for (let i = 0; i < myStudents.length; i++) {
     console.log(`${student.firstName} got a ${student.grade}`)
 }
 
+
+
 // looping through a string
 let lastName = "Norrington"; //printing string in reverse order
 for (let i = lastName.length -1; i >= 0; i--) {console.log(lastName[i])}
+
 let firstName = "Micah"; //origiin loop
 for (let i = 0; i <= firstName.length-1; i++) {console.log(firstName[i])}
 
@@ -78,6 +83,7 @@ for (let i = word.length-1; i >= 0; i--) {
     reversedWord += word[i];
 };
 console.log(reversedWord)
+
 // -_-
 let instructors = ["Osiel", "Jordon", "Justin", "Jodi"];
 for (let i = instructors.length-1; i >= 0; i--) {console.log(instructors[i], i)}
@@ -116,6 +122,7 @@ while (j <= 5) {
 //while (some condition) {
     //update or attempt to make that condition false
 //}
+
 const target = Math.floor(Math.random() * 10);
 let guess = Math.floor(Math.random() * 10);
 while (guess !== target){
@@ -123,6 +130,8 @@ while (guess !== target){
     guess = Math.floor(Math.random() * 10);
 }
 console.log(`Target: ${target} Guess: ${guess}`);
+
+
 
 //break keyword; stop looping at a specific point
 for(let i = 0; i <= 10; i++) {
@@ -160,6 +169,24 @@ for (let movie of Object.keys(movieReviews)) {
 */
 
 //for in loops through objects only
+
+
+// for (let i = 0; i <= 10; i+= 2) {console.log([i])}
+
+// function countBoomerangs (arr) {
+//     let count = 0;
+//     for (let i = 0; i < arr.length; i++){
+//         if(arr[i] !== arr[i + 1] && arr[i] === arr[i + 2]){
+//             count++;
+//         }
+//     }
+
+//     return count;
+// }
+
+// console.log(countBoomerangs([1, 2, 1, 2, 1, 2, 3]));
+
+
 
 
 
